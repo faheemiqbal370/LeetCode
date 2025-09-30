@@ -3,7 +3,7 @@ using namespace std;
 
     bool isPalindrome(int x) {
         if (x < 0) return false; // negative numbers can't be palindrome
-        string s = to_string(x); // copy 
+        string s = to_string(x); // change number to string and copy to s
         string rev = s;
         reverse(rev.begin(), rev.end());
         return s == rev;
