@@ -7,7 +7,6 @@ using namespace std;
              }), s.end());
             
             transform(s.begin(),s.end(),s.begin(), ::tolower);
-            
             // cout<<s;
             string n=s;
 
