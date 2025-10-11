@@ -6,7 +6,7 @@ using namespace std;
         string s = to_string(x); // change number to string and copy to string s
         string rev = s;
         reverse(rev.begin(), rev.end());
-        return s == rev;
+        return s== rev;
     }
 int main(){
     int n;
