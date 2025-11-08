@@ -6,7 +6,6 @@ using namespace std;
     return fib(n-1)+fib(n-2);
 }
 
-
 int main(){
     int n;
     cout<<"enter n"<<endl;
