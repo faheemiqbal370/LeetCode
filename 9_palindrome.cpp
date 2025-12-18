@@ -7,7 +7,6 @@ using namespace std;
         string rev = s;
         reverse(rev.begin(), rev.end());
         return s== rev;
-        
     }
 int main(){
     int n;
